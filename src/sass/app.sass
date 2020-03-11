@@ -1,0 +1,160 @@
+$second : #e76122
+
+body
+  margin: 0
+  font-family: 'Open Sans'
+
+*
+  box-sizing: border-box
+
+h1,h2,h3,h4,h5,h6,p
+  margin: 0px
+  line-height: unset
+
+.form
+  height: 100vh
+  background-color: #3a4e6a
+  background-image: url('../img/bg.png')
+  background-size: cover
+  background-repeat: no-repeat
+  padding-top: 100px
+  display: flex
+  align-items: center
+  flex-direction: column
+
+.container
+  max-width: 770px
+  flex: 1 0 auto
+
+.form--title
+  text-align: center
+  font-weight: 300
+  h1
+    font-size: 48px
+    font-weight: 300
+    color: $second
+  .form--sub-title
+    color: white
+    font-size: 18px
+
+.form--soc-buttons
+  display: flex
+  justify-content: center
+  padding-top: 20px
+  padding-bottom: 20px
+  width: 100%
+  ul
+    margin: 0px
+    margin-left: -40px
+    a
+      color: white
+      li
+        display: inline-block
+        margin-left: 5px
+        margin-right: 5px
+        width: 40px
+        height: 40px
+        text-align: center
+        line-height: 40px
+        border-radius: 50%
+
+#facebook-button
+  background-color: #5378bc
+
+#linkedin-button
+  background-color: #007ab5
+
+#twitter-button
+  background-color: #36d0f7
+
+#pinterest-button
+  background-color: #e92a2a
+
+.form--top
+  width: 100%
+  text-align: center
+  h3
+    font-size: 30px
+    font-weight: 300
+    color: $second
+    margin-bottom: 10px
+  p
+    font-size: 14px
+    font-style: italic
+    color: white
+
+.form--inputs
+  display: flex
+  .col
+    padding-top: 15px
+    padding-bottom: 10px
+    width: 50%
+    position: relative
+    box-sizing: border-box
+    flex: 0 0 auto
+    flex-wrap: wrap
+  .col-left
+    padding-right: 15px
+    position: relative
+    height: 100%
+  .col-right
+    padding-left: 15px
+    position: relative
+    height: 100%
+  input
+    box-sizing: border-box
+    margin-top: 15px
+    width: 100%
+    background-color: white
+    padding: 15px
+    font-size: 14px
+    border: unset
+    border-radius: 3px
+    &::placeholder
+      color: #777777
+  textarea
+    box-sizing: border-box
+    margin-top: 15px
+    padding: 15px
+    font-size: 14px
+    height: 165px
+    width: 100%
+    border: unset
+    border-radius: 3px
+    font-family: 'Open Sans'
+    &::placeholder
+      color: #777
+      font-family: 'Open Sans'
+
+.form--button
+  width: 100%
+  padding-top: 10px
+  text-align: center
+  button
+    background-color: #5dbdb1
+    border: unset
+    color: white
+    border-radius: 3px
+    font-size: 16px
+    text-transform: uppercase
+    font-weight: bold
+    padding-top: 13px
+    padding-bottom: 13px
+    width: 170px
+    text-align: center
+
+.form--footer
+  border-top: 3px dashed white
+  width: 100%
+  max-width: 880px
+  flex-shrink: 0
+  padding-top: 30px
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-bottom: 30px
+  p
+    font-size: 13px
+    color: white
+  img
+    margin-top: 20px
